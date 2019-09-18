@@ -1,0 +1,6 @@
+*.a
+*.o
+*.mexa64
+*.m~
+*.mat
+*.gitignore~
