@@ -16,7 +16,10 @@ Dependencies: Kenneth's CUDA-based GLM toolbox: https://github.com/latimerk/kGLM
         Set path in fitGLMs_LundstromHH.m, fitGLMs_MeaseHH.m
                     measureGLMfits_Lundstrom.m, measureGLMfits_Mease.m
 
-    Earthmover-distance: https://www.mathworks.com/matlabcentral/fileexchange/22962-the-earth-mover-s-distance
+    To compute the Earthmover-distance, we use the following MATLAB function: https://www.mathworks.com/matlabcentral/fileexchange/22962-the-earth-mover-s-distance
         by Ulas Yilmaz
+
+    This function is a wrapper for the EMD computation by Y. Rubner found here http://ai.stanford.edu/~rubner/emd/default.htm  
+    and described in Y. Rubner, C. Tomasi, and L. J. Guibas. A Metric for Distributions with Applications to Image Databases. Proceedings of the 1998 IEEE International Conference on Computer Vision, Bombay, India, January 1998, pp. 59-66.
 
         Set path in quantifyGSdistances.m
